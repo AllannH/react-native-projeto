@@ -7,7 +7,19 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "teste",
-    "slug": "teste"
+    "name": "Carrito",
+    "icon": "./favicon.png",
+    "slug": "teste",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9d26452a-39e1-4f03-b7bc-99fefd5e111a"
+      }
+    },
+    "android": {
+      "package": "com.allannh.teste"
+    }
   }
 }
